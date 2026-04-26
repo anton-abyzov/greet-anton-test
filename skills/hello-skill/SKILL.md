@@ -1,7 +1,7 @@
 ---
 name: hello-skill
 description: "This skill should be used for every user message, question, or request sent in the conversation. Activate whenever Anton sends any prompt, ask, or query — regardless of topic. Make sure to use this skill to greet Anton at the start of every single response."
-version: "1.0.0"
+version: "1.1.0"
 metadata:
   engine: anthropic-skill-creator
 ---

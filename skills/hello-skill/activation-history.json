@@ -1,0 +1,31 @@
+{
+  "runs": [
+    {
+      "id": "run-1777229754755",
+      "timestamp": "2026-04-26T18:55:54.755Z",
+      "model": "opus",
+      "provider": "claude-cli",
+      "promptCount": 1,
+      "summary": {
+        "precision": 0,
+        "recall": 0,
+        "reliability": 0,
+        "tp": 0,
+        "tn": 0,
+        "fp": 1,
+        "fn": 0
+      },
+      "results": [
+        {
+          "prompt": "how are you today?",
+          "expected": "should_not_activate",
+          "activate": true,
+          "confidence": "high",
+          "reasoning": "The skill description explicitly states it should activate for every user message, question, or request. 'how are you today?' is a user message/question, so it triggers the skill.",
+          "classification": "FP",
+          "autoClassified": true
+        }
+      ]
+    }
+  ]
+}
